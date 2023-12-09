@@ -1,4 +1,4 @@
-matplotlib
+matplotlib==3.4.3
 pandas_datareader.data
 keras.models
 yfinance

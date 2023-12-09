@@ -4,4 +4,4 @@ keras.models
 yfinance
 streamlit
 numpy
-tensorflow==2.7.0
+tensorflow

@@ -1,5 +1,5 @@
 matplotlib==3.4.3
-pandas_datareader.data
+pandas_datareader==0.10.0
 keras.models
 yfinance
 streamlit

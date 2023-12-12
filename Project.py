@@ -59,7 +59,7 @@ if save:
     close = rnd(cls)
 
     import mysql.connector                      ##establishing database connectivity and creating DB
-    mydb=mysql.connector.connect(host='localhost',user='root',password='sqlx7260', auth_plugin='mysql_native_password')
+    mydb=mysql.connector.connect(host='127.0.0.1',user='root',password='sqlx7260', auth_plugin='mysql_native_password')
     cursor= mydb.cursor()
     cursor.execute("CREATE DATABASE IF NOT EXISTS STOCK_INFO;")
     cursor.execute("USE STOCK_INFO;")
